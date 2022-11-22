@@ -21,5 +21,12 @@
       <property name="hbm2ddl.auto">update</property>
 
       <!-- Entities Mapping-->
+      <mapping class="com.onlinestorewepr.model.entity.Cart" />
+      <mapping class="com.onlinestorewepr.model.entity.CartItem" />
+      <mapping class="com.onlinestorewepr.model.entity.Category" />
+      <mapping class="com.onlinestorewepr.model.entity.Order" />
+      <mapping class="com.onlinestorewepr.model.entity.OrderItem" />
+      <mapping class="com.onlinestorewepr.model.entity.Product" />
+      <mapping class="com.onlinestorewepr.model.entity.User" />
    </session-factory>
 </hibernate-configuration>
