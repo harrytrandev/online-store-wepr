@@ -27,17 +27,17 @@
          </a>
          <ul class="menu-sub">
             <li class="menu-item" id="menu-managements-categories">
-               <a href="<%request.getContextPath();%>/admin/category" class="menu-link">
+               <a href="${pageContext.request.contextPath}/admin/category" class="menu-link">
                   <div data-i18n="Without menu">Categories</div>
                </a>
             </li>
             <li class="menu-item" id="menu-managements-products">
-               <a href="<%request.getContextPath();%>/admin/product" class="menu-link">
+               <a href="${pageContext.request.contextPath}/admin/product" class="menu-link">
                   <div data-i18n="Without navbar">Products</div>
                </a>
             </li>
             <li class="menu-item" id="menu-managements-orders">
-               <a href="<%request.getContextPath();%>/admin/order" class="menu-link">
+               <a href="${pageContext.request.contextPath}/admin/order" class="menu-link">
                   <div data-i18n="Without navbar">Orders</div>
                </a>
             </li>
